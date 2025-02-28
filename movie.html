@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie</title>
+
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/53e2be1d47.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./styles/movie.css" />
+    <script defer src="./script/movie/script.js"></script>
+  </head>
+  <body>
+    <!-- 상단 바 -->
+    <header>
+      <div class="header-inner">
+        <!-- 헤더 로고 (왼쪽) -->
+        <div class="header-logo-box">
+          <a href="#">
+            <img src="./imgs/logo.png" alt="logo" />
+          </a>
+        </div>
+        <!-- 헤더 네비게이션 바 (중앙) -->
+        <div class="header-nav-bar">
+          <ul>
+            <li id="home" class="nav-bar">
+              <a href="./membership.html">홈</a>
+            </li>
+            <li class="nav-bar">
+              <a id="movie" href="./membership.html">영화</a>
+            </li>
+            <li class="nav-bar">
+              <a id="drama" href="./membership.html">드라마</a>
+            </li>
+            <li class="nav-bar">
+              <a id="show" href="./membership.html">예능</a>
+            </li>
+            <li class="nav-bar">
+              <a id="new" href="./event.html">이벤트</a>
+            </li>
+          </ul>
+        </div>
+        <!-- 헤더 아이콘 박스 (오른쪽) -->
+        <div class="items">
+          <div class="items-box">
+            <div class="search">
+              <!-- 검색 아이콘 -->
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="검색어를 입력하세요." />
+            </div>
+            <!-- 하트 아이콘 -->
+            <div class="likes">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <!-- 프로필 아이콘 -->
+            <div class="user">
+              <a href="./membership.html">
+                <i class="fa-regular fa-user"></i>
+              </a>
+            </div>
+          </div>
+          <!-- 프로필 아이콘 눌렀을때 문의하기, 로그아웃 박스 생성 -->
+          <div class="user-box">
+            <ul>
+              <li>
+                <a href="./membership.html">
+                  <i class="fa-solid fa-exclamation"></i>
+                  문의하기
+                </a>
+              </li>
+              <hr />
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-right-from-bracket">
+                    <a href="./membership.html"></a>
+                    </i
+                  >로그아웃</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!-- 중앙  -->
+    <main>
+      <section class="section_01">
+        <div class="article">          
+          <div class="container">          
+            <!-- 대문 슬라이드 시작  -->
+            <div class="h_slide">
+
+              <!-- 플레이 -->
+             <div class="play_icon_w">
+                <div class="play_icon">
+                  <!-- 모달로 띄울까 함~ -->
+                  <a href="#">
+                    <i class="fas fa-play"></i>
+                  </a>
+                </div>
+             </div>
+
+             <!-- 각각의 슬라이드 -->
+                <div class="item item_01">                    
+                    <div class="h_content">
+                        <button class="button_style">재생하기</button>
+                        <button class="button_b"><i class="fas fa-heart"></i>찜하기</button>
+                        <div class="name">
+                            <p>부산행<em> (영화)</em></p>
+                            <span>2016 │ 부산행 - 액션/공포 │ 1시간 58분  
+                                <img src="./imgs/movie/Group 1515.png" alt="별점">
+                            </span>
+
+                            <div class="description">
+                              성공한 펀드매니저 석우(공유)는 딸 수안(김수안)과 함께 KTX를 타고 부산으로 향합니다. 
+                              하지만 열차에 정체불명의 감염자가 탑승하면서 치명적인 좀비 바이러스가 퍼지고, 승객들은 
+                              생존을 위한 사투를 벌입니다. 상화(마동석)와 성경(정유미) 부부, 이기적인 기업 임원 용석(김의성) 
+                              등 각기 다른 인물들이 위기 속에서 서로 협력하거나 대립하며, 끝까지 살아남기 위한 치열한 사투가 펼쳐집니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item_02">
+                    <div class="h_content">
+                        <button class="button_style">재생하기</button>
+                        <button class="button_b"><i class="fas fa-heart"></i>찜 하기</button>
+                        <div class="name">
+                            <p>나의 완벽한 비서<em> (스트리밍)</em></p>
+                            <span> 2025.01.03 ~ 2025.02.14 │ 나의 완벽한 비서 - 휴먼,가족 │ 141분  
+                                <img src="./imgs/movie/Group 1515.png" alt="별점">
+                            </span>
+
+                            <div class="description">
+                              완벽주의 CEO와 그의 유능한 비서 사이에서 벌어지는 오피스 로맨스.
+                              비서는 갑작스럽게 사직서를 제출하고, CEO는 그녀가 자신의 삶에 
+                              중요한 존재임을 깨닫고 붙잡으려 한다.
+                              서로의 감정을 깨달아 가며 관계가 변화하는 이야기.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item_03">
+                    <div class="h_content">
+                        <button class="button_style">재생하기</button>
+                        <button class="button_b"><i class="fas fa-heart"></i>찜 하기</button>
+                        <div class="name">
+                            <p>신과 함께<em> (영화)</em></p>
+                            <span>2017, 2018 │ 신과함께 - 인과연 │ 141분  
+                                <img src="./imgs/movie/Group 1515.png" alt="별점">
+                            </span>
+
+                            <div class="description">
+                                소방관 자홍(차태현)이 현장에서 사망한 후, 저승 삼차사(하정우, 주지훈, 김향기)의 
+                                인도를 받아 사후 49일 동안 7개의 지옥에서 심판을 받습니다. 각 지옥에서는 생전에 지은 죄를 심판받고, 
+                                변호사 역할을 하는 삼차사의 도움을 받아 환생할 기회를 얻으려 합니다. 과정에서 자홍의 과거가 밝혀지고, 
+                                예상치 못한 반전이 펼쳐집니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item_04">
+                    <div class="h_content">
+                        <button class="button_style">재생하기</button>
+                        <button class="button_b">
+                          <i class="fas fa-heart"></i>찜 하기</button>
+                        <div class="name">
+                            <p>피의 게임<em> (예능)</em></p>
+                            <span>시즌1, 시즌2, 시즌3 │ 피의게임 - 예능 │ 42부작 
+                                <img src="./imgs/movie/Group 1515.png" alt="별점">
+                            </span>
+
+                            <div class="description">
+                              《피의 게임》은 참가자들이 외부와 단절된 공간에서 생존 경쟁을 펼치는 서바이벌 예능이다.
+                              출연자들은 연합과 배신을 반복하며 다양한 미션을 수행하고, 최후의 1인이 되기 위해 치열한 심리전을 벌인다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item item_05">
+                    <div class="h_content">
+                        <button class="button_style">재생하기</button>
+                        <button class="button_b">
+                          <i class="fas fa-heart"></i>찜 하기
+                        </button>
+                        <div class="name">
+                            <p>용감한 형사들</p>
+                            <span>시즌1, 시즌2, 시즌3 시즌4│ 용감한 형사들 - 시사교양 │ 시즌 
+                                <img src="./imgs/movie/Group 1515.png" alt="별점">
+                            </span>
+
+                            <div class="description">
+                              《용감한 형사들》은 강력한 범죄자와 싸우는 형사들의 이야기를 다룬 영화로, 
+                              주인공인 형사들이 범죄 조직과 맞서 싸우며 벌어지는 액션과 스릴을 중심으로 진행된다.
+                              형사들은 각자의 개인적인 사연을 안고 있으며, 범죄를 해결하기 위한 치열한 추적과 전투 
+                              속에서 갈등과 협력의 관계가 형성된다.
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+
+            <!-- 버튼 -->
+            <div class="button">
+              <button class="prev">
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+              <button class="next">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section_02">
+        <div class="article">
+
+          <div class="top_10">
+            <p>
+            <span>매일매일 달라지는</span><br/>
+            오늘의 실 시간 인기 순위 TOP 10
+           </p>
+          </div>
+
+          <div id="person_box">
+            <div class="person_slides_wrapper">
+              <ul class="person_slides">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+           
+              <div class="controls">
+                <span class="prev">&gt;</span>
+                <span class="next">&lt;</span>
+              </div>
+          </div>
+        </div>
+      </section> 
+
+      <section class="section_03">
+        <div class="article">          
+          <div class="top_10">
+            <p>
+            <span>믿고 보는 K-콘덴츠, KTC가 강력 추천하는</span><br/>
+            추천 작품
+           </p>
+          </div>
+          <div class="container">            
+            <!-- 추천 작품 -->
+            <div class="tile"> 
+              <img src='./imgs/movie/a1.jpg'/>
+              <div class="text">
+                <h1>《1박 2일》</h1>
+                <h2 class="animate-text">국내 여행 + 버라이어티 + 리얼리티</h2>
+                <p class="animate-text">
+                  KBS에서 방송하는 국내 여행 버라이어티 예능 프로그램입니다.
+                  출연진이 대한민국 곳곳을 여행하며 다양한 미션을 수행하는 리얼리티 예능으로,
+                  2007년 첫 방송 이후 꾸준한 인기를 얻으며 한국을 대표하는 장수 예능 프로그램 중 하나로 자리 잡았습니다.
+                </p>                
+              </div>
+            </div> 
+            <div class="tile"> 
+              <img src='./imgs/movie/a2.jpg'/>
+              <div class="text">
+                <h1>《밀수》</h1>
+                <h2 class="animate-text">범죄, 액션, 드라마</h2>
+                <p class="animate-text">
+                  2023년 개봉한 한국 영화로,
+                  1970년대 해안 마을을 배경으로 한 범죄 액션 드라마입니다.
+                  독특한 소재와 화려한 캐스팅, 생동감 넘치는 액션이 돋보이는 작품입니다.
+                </p>                               
+              </div>
+            </div>
+            <div class="tile"> 
+              <img src='./imgs/movie/a3.jpg'/>
+              <div class="text">
+                <h1>《슬기로운 의사생활》</h1>
+                <h2 class="animate-text">의학, 드라마, 휴먼, 코미디</h2>
+                <p class="animate-text">
+                  tvN에서 방영된 의학 드라마로,
+                  병원을 배경으로 의사들의 삶과 우정, 사랑, 성장을 그린 작품입니다.
+                  의료 현장의 현실적인 이야기와 감동적인 에피소드,
+                  그리고 배우들의 자연스러운 케미 덕분에 많은 사랑을 받았습니다.
+                </p>                  
+              </div>
+            </div>
+          </div>              
+        </div>
+      </section>
+    </main>
+
+    <!-- 하단푸터 -->
+    <footer>
+      <div class="footer01">
+        <div class="footer01-left-link">
+          <span><a href="#">회사소개</a></span>
+          <span><a href="#">광고/제휴문의</a></span>
+          <span><a href="#">이용약관</a></span>
+          <span><a href="#">개인정보 처리방침</a></span>
+          <span><a href="#">미디어센터</a></span>
+          <span><a href="#">법적고지</a></span>
+          <span><a href="#">이메일무단수집거부</a></span>
+          <span><a href="#">문의하기</a></span>
+          <span><a href="#">고객센터</a></span>
+        </div>
+        <!-- 오른쪽 드롭다운 -->
+        <div class="footer-input">
+          <select class="input-language" name="language" id="language">
+            <option value="#">KO</option>
+            <option value="#">EG</option>
+          </select>
+          <select class="input-service" name="service" id="service">
+            <option value="#">연관 서비스</option>
+            <option value="#">관련 서비스</option>
+            <option value="#">힘내는 서비스</option>
+            <option value="#">우울한 서비스</option>
+          </select>
+          <select class="input-site" name="site" id="site">
+            <option value="#">패밀리 사이트</option>
+            <option value="#">친구 사이트</option>
+            <option value="#">학교 사이트</option>
+            <option value="#">가족 사이트</option>
+          </select>
+        </div>
+      </div>
+      <div class="footer02">
+        <div class="footer02-left">
+          <img src="./imgs/logo.png" alt="logo" />
+          <div class="footer-text">
+            <p>시청자 상담실 (문의 및 시청자 의견) : <b>123-123-1234</b></p>
+            <p>
+              (주)케이티씨콘텐츠 : 오승덕, 김윤주, 황예진, 홍민주
+              <b>123-123-1234</b>
+            </p>
+            <p>
+              <span
+                >본점 : 서울특별시 서초구 서초대로77길 41 대동2빌딩 9층</span
+              >
+              <span>사업자 등록번호 : 123-45-6789</span>
+              <span>공정거래위원회 웹사이트</span>
+            </p>
+          </div>
+        </div>
+        <div class="footer-sns">
+          <a href="#"> <i class="fab fa-instagram"></i></a>
+          <a href="#"> <i class="fab fa-facebook"></i></a>
+          <a href="#"> <i class="fab fa-youtube"></i></a>
+          <a href="#"> <i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
